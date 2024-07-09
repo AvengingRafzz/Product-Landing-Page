@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80vw;
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.section1 h1 {
+    font-size: 2rem;
+}
+
+.top-left {
+    width: 50%;
+    padding: 12px;
+}
+
+.top-right {
+    width: 50%;
+    padding: 12px;
+}
+
+.ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.section2 {
+    padding: 70px;
+}
+
+.section2 h1 {
+    font-size: 2rem;
+}
+
+.box {
+    margin: 12px 22px;
+    padding-bottom: 20px;
+    min-width: 20vw;
+    border: 5px solid blueviolet;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box h2 {
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.box ul {
+    list-style: none;
+}
+
+.box ul li {
+    margin: 12px 2px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.plantable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 {
+    padding: 70px;
+}
+
+.section3 h1 {
+    font-size: 2rem;
+}
+
+.section3 table {
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th {
+    width: 17vw;
+    border-bottom: 5px solid black;
+    padding: 20px;
+}
+
+.section3 table td {
+    width: 17vw;
+    border-bottom: 5px solid black;
+}
+
+footer {
+    padding: 23px;
+    text-align: center;
+}
